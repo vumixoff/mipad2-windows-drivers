@@ -3,7 +3,8 @@
 # Вам понадобится:
 * MiPad2 (16 ГБ или 64 ГБ)
 * Загрузочная флешка, USB-Hub, USB-мышь и клавиатура
-* ISO-файл Windows 10 Lite by den
+* ISO-файл Windows 10
+* Записать ISO-образ можно через:
 * [UltraISO](https://www.ezbsystems.com)
 * [Rufus](https://rufus.ie)
 * Если у вас версия на 16 ГБ - Не рекомендуется ставить DualBoot(Windows и Android)
