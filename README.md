@@ -1,83 +1,89 @@
-# Xiaomi MiPad2 - How to install Windows 10 from Android
+# Xiaomi MiPad2 - Как установить Windows 10 с Android и без
 
-# You will need:
-* MiPad2 (16GB or 64GB)
-* Windows 10 ISO file (or Ghost Spectre Windows 10 SuperLite ISO)
-* Windows 10 Device Drivers (included in this repo)
-* [Rufus](https://rufus.ie/en/)
-* Double Driver (Google it, or download from this repo)
-* 7Zip and WinZip
-* 16GB+ USB, USB Hub, USB Mouse and Keyboard
+# Вам понадобится:
+* MiPad2 (16 ГБ или 64 ГБ)
+* Загрузочная флешка, USB-Hub, USB-мышь и клавиатура
+* ISO-файл Windows 10 Lite by den
+* [UltraISO](https://www.ezbsystems.com)
+* [Rufus](https://rufus.ie)
+* Если у вас версия на 16 ГБ - Не рекомендуется ставить DualBoot(Windows и Android)
+* Драйверы устройств для Windows 10 (включены в этот репозиторий)
+* Двойной драйвер (найдите его в Google или загрузите из этого репозитория)
+* [7Zip](https://www.7-zip.org) и [WinZip](https://www.winzip.com)
 
-# Step 1 - Download Windows 10
-Option 1: Download the Xiaomi Windows 10 recovery (20160125-10586-oobe-16G.zip) from [Archive.org](https://archive.org/download/fr.twb.s_xiaomi_mipad2_factory). You might have to do this if you currently have MIUI installed.
 
-Warning: if you have a 16GB MiPad2, you won't have a lot of space left (maybe 1-2GB left) from this Win10.
+# Шаг 1 - Загрузите Windows 10                           
+Вариант 1: Загрузите программу восстановления Xiaomi для Windows 10 (20160125-10586-oobe-16G.zip) с [Archive.org](https://archive.org/download/fr.twb.s_xiaomi_mipad2_factory).     
+Возможно, вам придется это сделать, если у вас установлен MIUI.
 
-Option 2: Download Ghost Spectre Windows 10 SuperLite ISO (with this build, you will have 8GB free space).  Follow this links in the description:
-[YouTube](https://youtu.be/B-P1u2LmShc)
+Внимание: если у вас 16-гигабайтный MiPad2, у вас останется не так много места (возможно, 1-2 ГБ) на этом Win10.                    
 
-Option 3: Download NTLite and repackage Win 10 yourself
+Вариант 2: Скачайте Windows 10 Lite by Den 22H2                                                    
+Перейдите по ссылкам в описании:                                         
+[Сборка](https://windows64.net/538-windows-10-lite-by-den-22h2-cuper-oblegchennaja-sborka-107-gb.html)
 
-# Step 2 - Put Windows 10 on a USB Pendrive
-If you choose option 1 from Step 1 above, you can just copy all the files to the USB Pendrive.
+Вариант 3: Скачайте NTLite и переупакуйте Win 10 самостоятельно.
 
-Otherwise, for an ISO file, use Rufus to create a USB installer Pendrive for you.
+# Шаг 2 - Установите Windows 10 на USB-накопитель
+Если вы выберете вариант 1 из приведенного выше шага 1, вы можете просто скопировать все файлы на USB-накопитель.
 
-# Step 3 - Put the Double Driver to the USB Pendrive
-If you haven't already, download Double Driver from this repo, extract the zip file and put the "Double Driver" folder on your USB Pendrive
+В противном случае, для файла ISO используйте Rufus, чтобы создать USB-накопитель для установки.
 
-# Step 4 - Put the Windows 10 Device Drivers to the USB Pendrive
-If  you haven't already, Download the Windows 10 Device Drivers files from this repo.  You will need to use 7zip to extract all the driver files. Put the "win10_drivers" folder on your USB Pendrive
+# Шаг 3 - Установите драйвер Double Driver на USB-накопитель
+Если вы еще этого не сделали, загрузите драйвер Double Driver из этого репозитория, извлеките zip-файл и поместите папку "Double Driver" на свой USB-накопитель.
 
-# Step 5 - Install Windows
-Plugin the USB Pendrive, USB Mouse and Keyboard to your USB hub. Connect your USB Hub to your MiPad2.
+# Шаг 4 - Установите драйверы устройств Windows 10 на USB-накопитель.
+Если вы еще этого не сделали, загрузите файлы драйверов устройств для Windows 10 из этого репозитория.  Вам нужно будет использовать 7zip для извлечения всех файлов драйверов. Поместите папку "win10_drivers" на свой USB-накопитель.
 
-Turn on your tablet and your Windows 10 on your USB Pendrive should start up.  Continue with your Windows 10 installation.
+# Шаг 5 - Установка Windows
+Подключите USB-накопитель, USB-мышь и клавиатуру к USB-концентратору. Подключите USB-концентратор к MiPad2.
 
-# Step 6 - Install Xiaomi Windows drivers
-Once Windows 10 is installed, go to your USB Pendrive via File Explorer, go to the Double Driver, execute dd.exe
+Включите планшет, и Windows 10 на USB-накопителе должна запуститься.  Продолжайте установку Windows 10.
 
-Click Restore. Find the Windows 10 Device Drivers you extracted in the Step 4.
+# Шаг 6 - Установите драйверы Xiaomi для Windows
+Как только Windows 10 будет установлена, перейдите на свой USB-накопитель через проводник, выберите "Двойной драйвер", выполните dd.exe
 
-Start the driver restore process.
+Нажмите "Восстановить". Найдите драйверы устройств Windows 10, которые вы извлекли на шаге 4.
 
-# Step 7 - Fix non-working WiFi
-Go to Device Manager, Find Network adapters -> Broadcom 802.11ac Wireless PCIE Full Dongle Adapter.  Go to Properties.
+Запустите процесс восстановления драйвера.
 
-Go to the Driver tab, click Update Driver. Select Browse my computer for drivers.
+# Шаг 7 - Исправьте нерабочий Wi-Fi
+Перейдите в Диспетчер устройств, найдите Сетевые адаптеры -> Broadcom 802.11ac Wireless PCIE Full Dongle Adapter.                              
+                    
+Перейдите в Свойства.
+                                
+Перейдите на вкладку Драйверы, нажмите Обновить драйвер. Выберите Поиск драйверов на моем компьютере.                           
 
-Select "Let me pick from a list of available drivers on my computer".
+Выберите "Позвольте мне выбрать из списка доступных драйверов на моем компьютере".
 
-Instead of using the Microsoft driver, select the Broadcom driver.
+Вместо использования драйвера Microsoft выберите драйвер Broadcom.
 
-# Step 8 - Fix non-working Camera
+# Шаг 8 - Исправление нерабочей камеры
 
-## We will need to turn off Secure Boot because the camera driver was not properly signed.
-Open CMD as Adminstrator.
-Type:
+## Нам нужно отключить безопасную загрузку, поскольку драйвер камеры не был подписан должным образом.
+Откройте CMD от имени администратора.
+
+Введите команду:
+
 ```
 bcdedit /set loadoptions DDISABLE_INTEGRITY_CHECKS
 ```
 
-close the CMD.
+Закройте командную строку.
 
-Now to the final step (to disable the driver signature enforcement).
+Теперь перейдем к последнему шагу (чтобы отключить принудительное использование подписи драйвера).
 
-This is the simplest way to disable driver signature enforcement on Windows 10 but bear in mind that this method will only disable driver signature temporarily.
+Это самый простой способ отключить принудительное использование подписи драйвера в Windows 10, но имейте в виду, что этот метод отключает подпись драйвера только временно.
 
-To disable driver signature enforcement do the following:
+Чтобы отключить принудительное использование подписи драйвера, выполните следующие действия:
 
-Press and hold the Shift key on your keyboard and click the Restart button.
+Нажмите и удерживайте клавишу Shift на клавиатуре и нажмите кнопку перезапуск.
 
-Choose Troubleshoot > Advanced options > Startup Settings and click the Restart button.
-When your computer restarts you’ll see a list of options. Press 7 on your keyboard to select Disable driver signature enforcement.
+Выберите "Устранение неполадок" > "Дополнительные параметры" > "Параметры запуска" и нажмите кнопку перезапуск.
+Когда компьютер перезагрузится, вы увидите список опций. Нажмите 7 на клавиатуре, чтобы выбрать "Отключить принудительное использование подписи драйвера".
 
-Your computer will now restart and you’ll be able to install unsigned drivers.
+Теперь ваш компьютер перезагрузится, и вы сможете установить неподписанные драйверы.
 
-Bear in mind that this method only temporarily disables driver signature enforcement, so be sure to install all the unsigned drivers as soon as you can.
+Имейте в виду, что этот метод только временно отключает принудительное использование подписи драйверов, поэтому обязательно установите все неподписанные драйверы как можно скорее.
 
-Install the camera driver using Double Driver (win10_drivers\Image\Intel(R) AVStream Camera)
-
-
-
+Установите драйвер камеры с помощью двойного драйвера (win10_drivers\Image\Intel(R) AVStream Camera).
