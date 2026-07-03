@@ -41,7 +41,7 @@
 * Распакуйте архив "win10_drivers" на свой USB-накопитель                        
 
 # Шаг 5 - Установка Windows:
-* Подключите USB-накопитель, USB-мышь и клавиатуру к USB-концентратору. Подключите USB-концентратор к MiPad2
+* Подключите USB-накопитель, USB-мышь и клавиатуру к USB-концентратору. Подключите USB-Hub к MiPad2
 
 * Включите планшет, и Windows 10 на USB-накопителе должна запуститься.  Продолжайте установку Windows 10
 
@@ -97,4 +97,4 @@ bcdedit /set loadoptions DDISABLE_INTEGRITY_CHECKS
 
 * Установите драйвер камеры с помощью двойного драйвера (win10_drivers\Image\Intel(R) AVStream Camera)
 
-* Если лень ставить каждый по отдельности, вы можете использовать [Driver Booster](https://ru.iobit.com/driver-booster-pro.php) и [Snappy Driver](https://sdi-tool.org)
+* Если у вас не получается поставить через DoubleDriver, вы можете использовать [Driver Booster](https://ru.iobit.com/driver-booster-pro.php) и [Snappy Driver](https://sdi-tool.org)
