@@ -1,4 +1,4 @@
-# Xiaomi MiPad2 - Как установить Windows 10 с Android и без
+# Xiaomi MiPad 2 - Как установить Windows 10 с Android и без
 
 # Вам понадобится:
 
