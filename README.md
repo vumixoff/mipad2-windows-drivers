@@ -1,5 +1,6 @@
-# Xiaomi MiPad 2 - Как установить Windows 10 с Android и без
-
+# Xiaomi MiPad 2 - Установка Windows 10 с DualBoot и без
+<img width="293" height="495" alt="PXtiYkk4Y9IIfPubPUA6DSUKEe0BcLTV4Tb" src="https://github.com/user-attachments/assets/94fc125f-aa70-4511-8031-e7fabd4b2467" />
+                                    
 # Вам понадобится:
 
 * MiPad2 (16 ГБ или 64 ГБ)
