@@ -126,4 +126,4 @@ bcdedit /set loadoptions DDISABLE_INTEGRITY_CHECKS
 
 * Установите драйвер камеры с помощью двойного драйвера (win10_drivers\Image\Intel(R) AVStream Camera)
 
-
+* Тема на [4PDA](https://4pda.to/forum/index.php?showtopic=785498&st=1420)
