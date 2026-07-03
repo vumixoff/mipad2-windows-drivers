@@ -35,7 +35,7 @@
 
 * Перейдите по ссылкам в описании:
                                          
-* [Сборка](https://windows64.net/538-windows-10-lite-by-den-22h2-cuper-oblegchennaja-sborka-107-gb.html)
+* [Сборка](https://win-lite.site/download/Windows-10)
 
 
 Вариант 3: Скачайте NTLite и переупакуйте Win 10 самостоятельно
