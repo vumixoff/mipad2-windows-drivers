@@ -59,7 +59,7 @@
   
 * Вам нужно будет использовать 7Zip или WinRAR для извлечения всех файлов драйверов
   
-* Распакуйте архив "win10_drivers" на свой USB-накопитель
+* Распакуйте архив "win10_drivers.zip" на свой USB-накопитель
                
 * (Аналогичный способ: загрузите win10_drivers.rar распакуйте и ставьте каждый драйвер вручную)
 
@@ -79,8 +79,6 @@
 * Нажмите "Restore →→→ Locate Backup →→→ Other location". Найдите драйверы устройств Windows 10, которые вы извлекли на шаге 4
 
 * Запустите процесс восстановления драйвера
-
-* Cкачайте win10_drivers.rar и распакуйте архив
 
 * Если у вас не получается поставить через DoubleDriver, вы можете использовать [Driver Booster](https://ru.iobit.com/driver-booster-pro.php) и [Snappy Driver Installer](https://sdi-tool.org)
                               
