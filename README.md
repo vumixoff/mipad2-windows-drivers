@@ -78,9 +78,9 @@
 
 * Запустите процесс восстановления драйвера
 
-* Аналогичный способ скачайте win10_drivers.rar и распакуйте архив
+* Cкачайте win10_drivers.rar и распакуйте архив
 
-* Если у вас не получается поставить через DoubleDriver, вы можете использовать [Driver Booster](https://ru.iobit.com/driver-booster-pro.php) и [Snappy Driver](https://sdi-tool.org)
+* Если у вас не получается поставить через DoubleDriver, вы можете использовать [Driver Booster](https://ru.iobit.com/driver-booster-pro.php) и [Snappy Driver Installer](https://sdi-tool.org)
                               
 # Шаг 7 - Исправьте нерабочий Wi-Fi:
                                       
@@ -92,7 +92,7 @@
 
 * Выберите "Позвольте мне выбрать из списка доступных драйверов на моем компьютере"
 
-* Вместо использования драйвера Microsoft выберите драйвер Broadcom из распакованного архива win10_drivers
+* Вместо использования драйвера Microsoft выберите драйвер Broadcom из распакованного архива win10_drivers.rar
 
 # Шаг 8 - Исправление нерабочей камеры:
 
