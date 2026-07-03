@@ -9,7 +9,7 @@
 * [Rufus](https://rufus.ie)
 * Если у вас версия на 16 ГБ - Не рекомендуется ставить DualBoot(Windows и Android)
 * Драйверы устройств для Windows 10 (включены в этот репозиторий)
-* Двойной драйвер (найдите его в Google или загрузите из этого репозитория)
+* DoubleDriver (найдите его в Google или загрузите из этого репозитория)
 * [7Zip](https://www.7-zip.org) и [WinZip](https://www.winzip.com) или [WinRAR](https://www.rarlab.com)
 
 
