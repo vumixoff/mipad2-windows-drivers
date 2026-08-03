@@ -36,7 +36,7 @@
 
 * Перейдите по ссылкам в описании:
                                          
-* [Сборка](https://win-lite.site/download/Windows-10)
+* [Сборка](https://archive.org/details/win10-1607)
 
 
 Вариант 3: Скачайте NTLite и переупакуйте Win 10 самостоятельно
