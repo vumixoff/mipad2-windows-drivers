@@ -21,7 +21,7 @@
   
 * DoubleDriver (найдите его в Google или загрузите из этого репозитория)
   
-* [7Zip](https://www.7-zip.org) и [WinZip](https://www.winzip.com) или [WinRAR](https://www.rarlab.com)
+* [WinRAR](https://www.rarlab.com) или [7Zip](https://www.7-zip.org), [WinZip](https://www.winzip.com) 
 
 
 # Шаг 1 - Загрузите Windows 10:                           
