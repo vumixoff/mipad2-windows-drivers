@@ -52,7 +52,10 @@
                                 
 # Шаг 3 - Установите драйвер Double Driver на USB-накопитель: 
 
-* Если вы еще этого не сделали, загрузите драйвер Double Driver из этого репозитория, извлеките .zip и поместите папку "Double Driver" на свой USB-накопитель                   
+* Если вы еще этого не сделали, загрузите драйвер Double Driver из этого репозитория, извлеките .zip и поместите папку "Double Driver" на свой USB-накопитель
+
+* Аналогичный способ загрузите две папки с [Google Drive](https://drive.google.com/drive/folders/1NXDX2EymJNuaUzyirQfSixEYFGPG0MFy) и распакуйте .zip
+                    
                                                
 # Шаг 4 - Установите драйверы устройств Windows 10 на USB-накопитель:
 
@@ -61,6 +64,8 @@
 * Вам нужно будет использовать 7Zip или WinRAR для извлечения всех файлов драйверов
   
 * Распакуйте архив "win10_drivers.7zip" на свой USB-накопитель
+
+* Аналогичный способ загрузите две папки с [Google Drive](https://drive.google.com/drive/folders/1NXDX2EymJNuaUzyirQfSixEYFGPG0MFy) и распакуйте .zip
                
 
 # Шаг 5 - Установка Windows:
